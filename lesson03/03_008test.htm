@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html class="ui-mobile-rendering">
+		<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Document Muscle Strength</title>
+		<link rel="stylesheet" href="../includes/jquery.mobile-1.3.1.css" />
+<link rel="stylesheet" href="../includes/custom.css" />
+		<script src="../includes/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript">
+			var path = "../";
+		</script>
+		<script src="../includes/global.js"></script>
+		<script src="../includes/jquery.mobile-1.3.1.js"></script>
+    <title>Basic jQuery Slider - Demo</title>
+      
+    <!-- bjqs.css contains the *essential* css needed for the slider to work -->
+    <link rel="stylesheet" href="../includes/basic-jquery-slider-master/bjqs.css">
+
+    <!-- some pretty fonts for this demo page - not required for the slider -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:300' rel='stylesheet' type='text/css'> 
+
+    <!-- demo.css contains additional styles used to set up this demo page - not required for the slider --> 
+    <link rel="stylesheet" href="../includes/basic-jquery-slider-master/demo.css">
+
+    <!-- load jQuery and the plugin -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="../includes/basic-jquery-slider-master/js/bjqs-1.3.min.js"></script>
+        
+        
+        
+		</head>
+
+		<body >
+<!-- Start of intro page: #intro -->
+<div data-role="page" data-theme="b" id="videoPage1">
+<div data-role="header" data-backbtn="false"> <a href="03_007.htm" data-mini="true" data-direction="reverse" data-icon="arrow-l" data-role="button" data-theme="e" data-transition="slide">Back</a>
+          <h2>Document Muscle Strength</h2>
+          <a href="03_009.htm" data-mini="true" data-direction="forward" data-icon="arrow-r" data-role="button" data-theme="e" data-transition="slide">Next</a> </div>
+<!-- /header -->
+
+<div data-role="content" data-theme="b" >
+<DIV>
+          <H3>Muscle Strength</H3>
+          <p>The examiner will perform  three basic components of the physical C&amp;P Muscle Injuries examination: inspection, palpation, and determination of physical limitations caused by the  muscle injury or disability. Use the forward and previous arrows to review  assessments in the slide show on this page. The order in which these assessments take place is up to you. You may be asked questions about this content.</p>
+    <div id="container">
+  
+      <script class="secret-source">
+        jQuery(document).ready(function($) {
+
+          $('#banner-fade').bjqs({
+            height      : 300,
+            width       : 300,
+            responsive  : true
+          });
+
+        });
+      </script>
+
+
+      <!--  Outer wrapper for presentation only, this can be anything you like -->
+      <div id="banner-slide">
+
+        <!-- start Basic Jquery Slider -->
+        <ul class="bjqs">
+
+          <li><img src="../images/MU_03_008_1.png" title="Measure the range of motion (ROM) conforming to the <em>DeLuca</em> and <em>Mitchell</em> criteria. Any limitation in the range of motion should be stated in degrees, if possible. Note any pain, fatigue, stiffness, incoordination, or uncertainty of movement."></li>
+          <li><img src="../images/MU_03_008_2.png" title="Measure scars including the length, width, and depth. If there are one or more painful or unstable scars or if the total area of all related scars is greater than 39 square cm (6 square inches) refer to the Scars DBQ or other documentation protocol.</li><li>For wounds, describe entrance and exit scars (if present). Describe whether scars are ragged, adherent, or depressed, and whether they are adherent to bone without muscle overlying bone.</li><li>Although not required, color photographs of any significant residuals of injuries, infections, and surgeries resulting from injuries or infections to the head, face or neck may be helpful for adjudication purposes."></li>
+          <li><img src="../images/MU_03_008_3.png" title="Automatically generated caption"></li>
+          <li><img src="../images/MU_03_008_4.png" title="Automatically generated caption"></li>
+          <li><img src="../images/MU_03_008_5.png" title="Automatically generated caption"></li>
+          <li><img src="../images/MU_03_008_6.png" title="Automatically generated caption"></li>
+          <li><img src="../images/MU_03_008_7.jpg" title="Automatically generated caption"></li>
+        </ul>
+        <!-- end Basic jQuery Slider -->
+
+      </div>
+      <!-- End outer wrapper -->
+      
+      <!-- attach the plug-in to the slider parent element and adjust the settings as required -->
+      <script class="secret-source">
+        jQuery(document).ready(function($) {
+          
+          $('#banner-slide').bjqs({
+            animtype      : 'slide',
+            height        : 300,
+            width         : 300,
+            responsive    : true,
+            randomstart   : true
+          });
+          
+        });
+      </script>
+
+    </div>
+
+    <!-- 
+      The following script is not related to basic jQuery Slider 
+      It's used to create the code snippets in the demo.
+      https://github.com/maelstrom/SecretSource
+    -->
+    <script src="js/libs/jquery.secret-source.min.js"></script>
+
+    <script>
+    jQuery(function($) {
+
+        $('.secret-source').secretSource({
+            includeTag: false
+        });
+
+    });
+    </script>
+
+          <p style="text-align:center;"><strong>Select the Next button to continue.</strong></p>
+          <!-- /content -->
+          
+          <div data-role="footer" data-theme="a"> 
+    <!-- Footer --> 
+  </div>
+        </div>
+<!-- /intro -->
+
+</body>
+</html>

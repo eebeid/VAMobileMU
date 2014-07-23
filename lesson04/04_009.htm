@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<html class="ui-mobile-rendering"> 
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Medical Opinion Details</title> 
+	<link rel="stylesheet" href="../includes/jquery.mobile-1.3.1.css" />
+<link rel="stylesheet" href="../includes/custom.css" />
+	<script src="../includes/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript">
+			var path = "../";
+		</script>		
+	<script src="../includes/global.js"></script>
+
+		<script src="../includes/jquery.mobile-1.3.1.js"></script>
+</head>
+
+
+	
+<body > 
+<!-- Start of intro page: #intro -->
+<div data-role="page" data-theme="b" id="videoPage1">
+
+	<div data-role="header" data-backbtn="false">
+		<a href="04_008.htm" data-mini="true" data-direction="reverse" data-icon="arrow-l" data-role="button" data-theme="e" data-transition="slide">Back</a>
+	  <h2>Medical Opinion Details</h2>
+		<a href="04_010.htm" data-mini="true" data-direction="forward" data-icon="arrow-r" data-role="button" data-theme="e" data-transition="slide">Next</a>
+		
+  </div><!-- /header -->
+
+	<div data-role="content" data-theme="b" >
+	  <DIV>
+	    <p>If a medical opinion is  requested or is medically indicated for a claim, you should perform the  following tasks:</p>
+	    <UL type="disc">
+	      <LI>Identify the specific evidence you reviewed and considered in forming your opinion.</LI>
+	      <LI>State your opinion in VBA-recommended language.</LI>
+	      <LI>Provide a comprehensive rationale based on the  case-specific data for the Veteran or Servicemember.</LI>
+	      <LI>Provide and cite or reference any supporting medical literature or practice standards for the opinion you present.</LI>
+        </UL>
+	    <p>In some instances, a medical  conclusion may be necessary even though a formal medical opinion was not  requested. For example, if the claimant complains of neurological symptoms during  the examination, you will need to note whether the neurological symptoms are  related to the claimed muscle injury. In such instances, record the medical  conclusion and its rationale in the Remarks section of the appropriate documentation  protocol. </p>
+	    <p>Possible example: If the Veteran complains of numbness in the area of the in-service injury, you will need to determine whether this neurological symptom, which may be noted for the first time during your VA examination, is related to the muscle injury at hand.</p>
+	    <p>For information on common  errors regarding medical opinions select <a href="#popupBasic" data-rel="popup">Common Medical Opinion Errors</a>.</p>
+
+<div data-role="popup" id="popupBasic">
+  <H1>Common Medical Opinion Errors </H1>
+  <p>  
+  <UL>
+    <LI>The Examination Request was not followed.
+      <UL>
+        <LI>The examiner did not provide Information/opinion requested on the Examination Request.</LI>
+        <LI>The examiner provided an unsolicited opinion.</LI>
+      </UL>
+    </LI>
+    <LI>The examiner:
+      <UL>
+        <LI>Did not provide a well-reasoned rationale.</LI>
+        <LI>Submitted an opinion based on incorrect information.</LI>
+        <LI>Submitted an opinion which contains internal inconsistencies.</LI>
+        <LI>Reported unclear or missing findings.</LI>
+        <LI>Did not address all related diagnoses.</LI>
+        <LI>Did not review the C-file as requested on the Examination Request.</LI>
+        <LI>Did not consider all relevant evidence, including the claimant's statements about his or her condition.</LI>
+        </UL>
+    </LI>
+    </UL>
+  <p><a href="javascript($( ".selector" ).popup( "close" );)">Close</a></p>
+  <p>&nbsp;</p>
+</div>
+
+</DIV>
+	  <p style="text-align:center;"><strong>Select the Next button to continue.</strong></p>	
+
+  </div><!-- /content -->	
+
+	<div data-role="footer" data-theme="a">
+		<!-- Footer -->
+	</div>
+</div><!-- /intro -->
+
+<script type="text/javascript">
+$(function() {
+	$( "#Dialog1" ).dialog(); 
+});
+</script>
+</body>
+</html>

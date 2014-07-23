@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html class="ui-mobile-rendering"> 
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>The Physical Examination Continues</title> 
+	<link rel="stylesheet" href="../includes/jquery.mobile-1.3.1.css" />
+<link rel="stylesheet" href="../includes/custom.css" />
+	<script src="../includes/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript">
+			var path = "../";
+		</script>		
+	<script src="../includes/global.js"></script>
+
+		<script src="../includes/jquery.mobile-1.3.1.js"></script>
+	</head>
+
+
+	
+<body > 
+<!-- Start of intro page: #intro -->
+<div data-role="page" data-theme="b" id="videoPage1">
+
+	<div data-role="header" data-backbtn="false">
+		<a href="03_009.htm" data-mini="true" data-direction="reverse" data-icon="arrow-l" data-role="button" data-theme="e" data-transition="slide">Back</a>
+		<h2>The Physical Examination Continues</h2>
+		<a href="03_011.htm" data-mini="true" data-direction="forward" data-icon="arrow-r" data-role="button" data-theme="e" data-transition="slide" onclick="setLessonComplete();">Next</a>
+		
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="b">
+	  <p>The  examiner continues the physical assessments in the video on this page. Among  other assessments, the examiner uses a goniometer as well as Staff Sergeant  Marcus's facial and vocal responses to gather data about his ability to flex  his elbow before and after several repetitions. The examiner also uses a pin  and a small brush to assess peripheral nerves responses in Staff Sergeant  Marcus's affected arm. </p>
+      <video width="400" height="300" id="video_1" title="The Physical Examination Continue" preload="true" controls >
+        <source src="../media/DMA_MU_03_010_1.mp4" type="video/mp4">
+        <source src="../media/DMA_MU_03_010.3gp" type="video/3gp">
+        <track src="captions_file.vtt" label="English captions" kind="captions" srclang="en-us" default > </track>
+      </video>
+	<p style="text-align:center;">Select the Play button on the media player to begin the video. After completing the video, select the Next button to continue.</p>
+	</div><!-- /content -->	
+
+	<div data-role="footer" data-theme="a">
+		<!-- Footer -->
+	</div>
+</div><!-- /intro -->
+
+</body>
+</html>

@@ -1,0 +1,413 @@
+1
+00:00:00,000 --> 00:00:01,970
+Hi, I am Rick Ivnik. I am the 
+
+2
+00:00:01,970 --> 00:00:03,230
+Director of Biomedical Engineering 
+
+3
+00:00:03,230 --> 00:00:04,500
+at the St. Louis VA Healthcare 
+
+4
+00:00:04,500 --> 00:00:06,400
+System. I am here today to talk to 
+
+5
+00:00:06,400 --> 00:00:07,800
+you about biomedical engineering 
+
+6
+00:00:07,800 --> 00:00:09,530
+for informaticists.
+
+7
+00:00:09,530 --> 00:00:12,270
+The purpose of this presentation is 
+
+8
+00:00:12,270 --> 00:00:13,130
+to provide you with a basic 
+
+9
+00:00:13,130 --> 00:00:14,770
+understanding of the roles, 
+
+10
+00:00:14,770 --> 00:00:17,430
+responsibilities, and functions of 
+
+11
+00:00:17,430 --> 00:00:18,730
+Biomedical Engineering in the VA 
+
+12
+00:00:18,730 --> 00:00:20,730
+and how the relationship with 
+
+13
+00:00:20,730 --> 00:00:22,370
+Biomedical Engineering and 
+
+14
+00:00:22,370 --> 00:00:24,000
+Informatics is extremely important 
+
+15
+00:00:24,000 --> 00:00:26,230
+to the future of healthcare.
+
+16
+00:00:26,230 --> 00:00:28,730
+The learning objectives are 
+
+17
+00:00:28,730 --> 00:00:30,330
+primarily to identify the roles, 
+
+18
+00:00:30,330 --> 00:00:32,600
+responsibilities, and functions of 
+
+19
+00:00:32,600 --> 00:00:33,930
+Biomedical Engineering in the VA, 
+
+20
+00:00:33,930 --> 00:00:36,570
+to understand the healthcare 
+
+21
+00:00:36,570 --> 00:00:38,330
+technologies that Biomedical 
+
+22
+00:00:38,330 --> 00:00:40,500
+Engineering manages, and to define 
+
+23
+00:00:40,500 --> 00:00:42,570
+the relationship between Biomedical 
+
+24
+00:00:42,570 --> 00:00:45,570
+Engineering and Informatics. This 
+
+25
+00:00:45,570 --> 00:00:47,230
+hopefully will lead you to be able 
+
+26
+00:00:47,230 --> 00:00:49,330
+to recognize opportunities to be 
+
+27
+00:00:49,330 --> 00:00:50,430
+able to work collaboratively 
+
+28
+00:00:50,430 --> 00:00:52,570
+between Biomedical Engineering and 
+
+29
+00:00:52,570 --> 00:00:54,030
+Informatics. 
+
+30
+00:00:54,030 --> 00:00:56,700
+Our core function in Biomedical 
+
+31
+00:00:56,700 --> 00:00:59,100
+Engineering, simply put, is to 
+
+32
+00:00:59,100 --> 00:01:01,300
+provide support to advance patient 
+
+33
+00:01:01,300 --> 00:01:03,500
+care by applying engineering, 
+
+34
+00:01:03,500 --> 00:01:06,200
+technical, and managerial skills to 
+
+35
+00:01:06,200 --> 00:01:07,730
+healthcare technologies.
+
+36
+00:01:07,730 --> 00:01:09,370
+The fundamental theorem we are 
+
+37
+00:01:09,370 --> 00:01:11,500
+going to discuss is that in 
+
+38
+00:01:11,500 --> 00:01:14,270
+biomedical informatics, the person 
+
+39
+00:01:14,270 --> 00:01:16,530
+and the technology are greater than 
+
+40
+00:01:16,530 --> 00:01:19,400
+the person alone. Essentially, if 
+
+41
+00:01:19,400 --> 00:01:21,270
+we can offer the person a resource 
+
+42
+00:01:21,270 --> 00:01:23,270
+that is something the person does 
+
+43
+00:01:23,270 --> 00:01:25,130
+not already know, they can provide 
+
+44
+00:01:25,130 --> 00:01:27,630
+better care to the patient. 
+
+45
+00:01:27,630 --> 00:01:29,630
+This diagram describes the 
+
+46
+00:01:29,630 --> 00:01:31,670
+relationships that are required for 
+
+47
+00:01:31,670 --> 00:01:34,170
+this theorem to hold. Essentially, 
+
+48
+00:01:34,170 --> 00:01:36,000
+when you have a patient, you have 
+
+49
+00:01:36,000 --> 00:01:37,570
+two interactions with that patient. 
+
+50
+00:01:37,570 --> 00:01:39,000
+The patient interacts with the 
+
+51
+00:01:39,000 --> 00:01:40,570
+medical technology and the clinical 
+
+52
+00:01:40,570 --> 00:01:43,430
+staff, both of which gather data 
+
+53
+00:01:43,430 --> 00:01:45,470
+from the patient. That data is then 
+
+54
+00:01:45,470 --> 00:01:48,230
+stored in another system. In order 
+
+55
+00:01:48,230 --> 00:01:49,800
+for these relationships to work 
+
+56
+00:01:49,800 --> 00:01:51,500
+correctly, Biomedical Engineering, 
+
+57
+00:01:51,500 --> 00:01:52,700
+OIT (Office of Information & 
+
+58
+00:01:52,700 --> 00:01:54,300
+Technology), and Informatics must 
+
+59
+00:01:54,300 --> 00:01:56,100
+work as one. 
+
+60
+00:01:56,100 --> 00:01:58,970
+Now, the reason biomedical 
+
+61
+00:01:58,970 --> 00:02:01,030
+engineering and informaticists can 
+
+62
+00:02:01,030 --> 00:02:03,000
+work so closely together is we have 
+
+63
+00:02:03,000 --> 00:02:05,270
+some very similar characteristics. 
+
+64
+00:02:05,270 --> 00:02:07,870
+For example, Informatics is a 
+
+65
+00:02:07,870 --> 00:02:10,700
+data-driven organization. They love 
+
+66
+00:02:10,700 --> 00:02:12,700
+data. It is what they work with. 
+
+67
+00:02:12,700 --> 00:02:14,130
+Biomedical Engineering is very 
+
+68
+00:02:14,130 --> 00:02:16,400
+analytical. We enjoy looking at the 
+
+69
+00:02:16,400 --> 00:02:18,000
+data and doing analysis. 
+
+70
+00:02:18,000 --> 00:02:20,330
+Informatics, you can give them a 
+
+71
+00:02:20,330 --> 00:02:21,730
+problem, and they will be able to 
+
+72
+00:02:21,730 --> 00:02:24,370
+diagnose it. If you give engineers 
+
+73
+00:02:24,370 --> 00:02:26,300
+a problem, we will attempt to solve 
+
+74
+00:02:26,300 --> 00:02:29,100
+it. Informatics understands process 
+
+75
+00:02:29,100 --> 00:02:31,100
+and workflow. We understand 
+
+76
+00:02:31,100 --> 00:02:33,070
+computers and technical systems. 
+
+77
+00:02:33,070 --> 00:02:35,330
+Informaticists are able to see the 
+
+78
+00:02:35,330 --> 00:02:37,030
+connections and clinical impacts 
+
+79
+00:02:37,030 --> 00:02:39,600
+that technology can provide. 
+
+80
+00:02:39,600 --> 00:02:42,270
+Biomedical Engineering, we are able 
+
+81
+00:02:42,270 --> 00:02:45,000
+to visualize complex processes and 
+
+82
+00:02:45,000 --> 00:02:46,470
+the interactions with other systems 
+
+83
+00:02:46,470 --> 00:02:48,630
+for those equipment. Informaticists 
+
+84
+00:02:48,630 --> 00:02:50,800
+are curious. Engineers are curious. 
+
+85
+00:02:50,800 --> 00:02:53,330
+Informaticists have the ability to 
+
+86
+00:02:53,330 --> 00:02:55,330
+communicate and translate with the 
+
+87
+00:02:55,330 --> 00:02:56,970
+clinical staff, and biomedical 
+
+88
+00:02:56,970 --> 00:02:58,400
+engineers have the ability to 
+
+89
+00:02:58,400 --> 00:03:00,330
+communicate and create diagrams of 
+
+90
+00:03:00,330 --> 00:03:02,270
+process flows on the administrative 
+
+91
+00:03:02,270 --> 00:03:05,200
+side of the house. Informatics does 
+
+92
+00:03:05,200 --> 00:03:07,630
+change management, and Biomedical 
+
+93
+00:03:07,630 --> 00:03:09,970
+Engineering does project management. 
+
+94
+00:03:09,970 --> 00:03:11,800
+In a recent survey of Informatics 
+
+95
+00:03:11,800 --> 00:03:13,500
+staff across the VA, one of the 
+
+96
+00:03:13,500 --> 00:03:14,900
+most surprising things we found out 
+
+97
+00:03:14,900 --> 00:03:15,900
+is they want to work with 
+
+98
+00:03:15,900 --> 00:03:17,930
+Biomedical Engineering. Eighty-five 
+
+99
+00:03:17,930 --> 00:03:20,030
+percent of Informatics staff across 
+
+100
+00:03:20,030 --> 00:03:22,000
+the VA identified that they want to 
+
+101
+00:03:22,000 --> 00:03:24,230
+share experiences and have closer 
+
+102
+00:03:24,230 --> 00:03:25,400
+integration with Biomedical 
+
+103
+00:03:25,400 --> 00:03:28,400
+Engineering as a priority goal.
+
+

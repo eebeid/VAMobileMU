@@ -1,0 +1,145 @@
+<!DOCTYPE html> 
+<html class="ui-mobile-rendering"> 
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>23 Muscle Groups</title> 
+	<link rel="stylesheet" href="../includes/jquery.mobile-1.3.1.css" />
+<link rel="stylesheet" href="../includes/custom.css" />
+	<link href="../includes/custom.css" rel="stylesheet" type="text/css">
+	<script src="../includes/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript">
+			var path = "../";
+		</script>		
+	<script src="../includes/global.js"></script>
+    <script type="text/javascript" src="../includes/imageMapResizer.min.js"></script>
+
+		<script src="../includes/jquery.mobile-1.3.1.js"></script>
+        <script>
+	var showMore1='<h1 id="showMore1">GROUP I: Shoulder Girdle and Arm Section</h1><p>Muscles: Extrinsic muscles of shoulder girdle: (1) Trapezius; (2) levator scapulae; (3) serratus magnus</p> ';	
+	var showMore2='<h1 id="showMore2">GROUP II: Shoulder Girdle and Arm Section</h1><p>Muscles: Extrinsic muscles of shoulder girdle: (1) Pectoralis major II (costosternal); (2) latissimus dorsi and teres major (teres major, although technically an intrinsic muscle, is included with latissimus dorsi); (3) pectoralis minor; (4) rhomboid</p><p>Function: Depression of arm from vertical overhead to hanging at side (1, 2); downward rotation of scapula (3, 4); 1 and 2 act with Group III in forward and backward swing of arm.</p> ';	
+	var showMore3='<h1 id="showMore3">GROUP III: Shoulder Girdle and Arm Section</h1><p>Muscles: Intrinsic muscles of shoulder girdle: (1) Pectoralis major I (clavicular); (2) deltoid</p><p>Function Elevation and abduction of arm to level of shoulder; act with 1 and 2 of Group II in forward and backward swing of arm.</p> ';	
+	var showMore4='<h1 id="showMore4">GROUP IV: Shoulder Girdle and Arm Section</h1><p>Muscles: Intrinsic muscles of shoulder girdle: (1) Supraspinatus; (2) infraspinatus and teres minor; (3) subscapularis; (4) coracobrachialis</p><p>Function: Stabilization of shoulder against injury in strong movements, holding head of humerus in socket; abduction; outward rotation and inward rotation of arm. </p> ';	
+	var showMore5='<h1 id="showMore5">GROUP V: Shoulder Girdle and Arm Section</h1><p>Muscles: Flexor muscles of elbow: (1) Biceps; (2) brachialis; (3) brachioradialis</p><p>Function: Elbow supination (1) (long head of biceps is stabilizer of shoulder joint); flexion of elbow (1, 2, 3).</p> ';	
+	var showMore6='<h1 id="showMore6">GROUP VI: Shoulder Girdle and Arm Section</h1><p>Muscles: Extensor muscles of the elbow: (1) Triceps; (2) anconeus.</p><p>Function: Extension of elbow (long head of triceps is stabilizer of shoulder joint)</p> ';	
+	var showMore7='<h1 id="showMore7">GROUP VII: Forearm and Hand Section</h1><p>Muscles: Muscles arising from internal condyle of humerus: Flexors of the carpus and long flexors of fingers and thumb, pronator</p><p>Function: Flexion of wrist and fingers</p> ';	
+	var showMore8='<h1 id="showMore8">GROUP VIII: Forearm and Hand Section</h1><p>Muscles: Muscles arising mainly from the external condyle of humerus: Extensors of the carpus, fingers and thumb, supinator</p><p>Function: Extension of the wrist, fingers and thumb</p> ';	
+	var showMore9='<h1 id="showMore9">GROUP IX: Forearm and Hand Section</h1><p>Muscles: Intrinsic muscles of hand: Thenar eminence; short flexor, opponens, abductor and adductor of thumb; hypothenar eminence; short flexor, opponens and abductor of little finger; 4 lumbricales; 4 dorsal and 3 palmar interossei</p><p>Function: The forearm muscles act in strong grasping movements and are supplemented by the intrinsic muscles in delicate manipulative movements</p> ';		
+	var showMore10='<h1 id="showMore10">GROUP X: 38 CFR 4.63 Foot and Leg Section</h1><p>Muscles: Intrinsic muscles of the foot: Plantar: (1) Flexor digitorum brevis; (2) abductor hallucis; (3) abductor digiti minimi; (4) quadratus plantae; (5) lumbricales; (6) flexor hallucis brevis; (7) adductor hallucis; (8) flexor digiti minimi brevis; (9) dorsal and plantar interossei. Other important plantar structures: Plantar aponeurosis, long plantar and calcaneonavicular ligament, tendons of posterior tibial, peroneus longus, and long flexors of great and little toes; Dorsal: (1) Extensor hallucis brevis; (2) extensor digitorum brevis. Other important dorsal structures: cruciate, crural, deltoid, and other ligaments; tendons of long extensors of toes and peronei muscles</p><p>Function: Movements of forefoot and toes; propulsion thrust in walking</p> ';
+	
+	var showMore11='<h1 id="showMore11">GROUP XI: Foot and Leg Section</h1><p>Muscles: Posterior and lateral crural muscles, and muscles of the calf: (1) Triceps surae (gastrocnemius and soleus); (2) tibialis posterior; (3) peroneus longus; (4) peroneus brevis; (5) flexor hallucis longus; (6) flexor digitorum longus; (7) popliteus; (8) plantaris</p><p>Function: Propulsion, plantar flexion of foot (1); stabilization of arch (2, 3); flexion of toes (4, 5); Flexion of knee (6).</p> ';	
+	var showMore12='<h1 id="showMore12">GROUP XII: Foot and Leg Section</h1><p>Muscles: Anterior muscles of the leg: (1) Tibialis anterior; (2) extensor digitorum longus; (3) extensor hallucis longus; (4) peroneus tertius</p><p>Function: Dorsiflexion (1); extension of toes (2); stabilization of arch (3).</p> ';	
+	var showMore13='<h1 id="showMore13">GROUP XIII: Pelvic Girdle and Thigh Section</h1><p>Muscles: Posterior thigh group, Hamstring complex of 2-joint muscles: (1) Biceps femoris; (2) semimembranosus; (3) semitendinosus</p><p>Function: Extension of hip and flexion of knee; outward and inward rotation of flexed knee; acting with rectus femoris and sartorius (see XIV, 1, 2) synchronizing simultaneous flexion of hip and knee and extension of hip and knee by belt-over-pulley action at knee joint.</p> ';	
+	var showMore14='<h1 id="showMore14">GROUP XIV: Pelvic Girdle and Thigh Section</h1><p>Muscles: Anterior thigh group: (1) Sartorius; (2) rectus femoris; (3) vastus externus; (4) vastus intermedius; (5) vastus internus; (6) tensor vaginae femoris</p><p>Function: Extension of knee (2, 3, 4, 5); simultaneous flexion of hip and flexion of knee (1); tension of fascia lata and iliotibial (Maissiat\'s) band, acting with XVII (1) in postural support of body (6); acting with hamstrings in synchronizing hip and knee (1, 2).</p> ';	
+	var showMore15='<h1 id="showMore15">GROUP XV: Pelvic Girdle and Thigh Section</h1><p>Muscles: Mesial thigh group: (1) Adductor longus; (2) adductor brevis; (3) adductor magnus; (4) gracilis</p><p>Function: Adduction of hip (1, 2, 3, 4); flexion of hip (1, 2); flexion of knee (4).</p> ';	
+	var showMore16='<h1 id="showMore16">GROUP XVI: Pelvic Girdle and Thigh Section</h1><p>Muscles: Pelvic girdle group 1: (1) Psoas; (2) iliacus; (3) pectineus</p><p>Function: Flexion of hip (1, 2, 3).</p> ';	
+	var showMore17='<h1 id="showMore17">GROUP XVII: Pelvic Girdle and Thigh Section</h1><p>Muscles: Pelvic girdle group 2: (1) Gluteus maximus; (2) gluteus medius; (3) gluteus minimus</p><p>Function: Extension of hip (1); abduction of thigh; elevation of opposite side of pelvis (2, 3); tension of fascia lata and iliotibial (Maissiat\'s) band, acting with XIV (6) in postural support of body steadying pelvis upon head of femur and condyles of femur on tibia (1).</p> ';	
+	var showMore18='<h1 id="showMore18">GROUP XVIII: Pelvic Girdle and Thigh Section</h1><p>Muscles: Pelvic girdle group 3: (1) Pyriformis; (2) gemellus (superior or inferior); (3) obturator (external or internal); (4) quadratus femoris</p><p>Function: Outward rotation of thigh and stabilization of hip joint.</p> ';	
+	var showMore19='<h1 id="showMore19">GROUP XIX: Torso and Neck Section</h1><p>Muscles: Muscles of the abdominal wall: (1) Rectus abdominis; (2) external oblique; (3) internal oblique; (4) transversalis; (5) quadratus lumborum </p><p>Function: Support and compression of abdominal wall and lower thorax; flexion and lateral motions of spine; synergists in strong downward movements of arm (1). </p> ';
+	var showMore20='<h1 id="showMore20">GROUP XX: Torso and Neck Section</h1><p>Muscles: Spinal muscles: sacrospinalis (erector spinae and it prolongations in thoracic and cervical regions)</p><p>Function: Postural support of body; extension and lateral movements of spine</p> ';
+	var showMore21='<h1 id="showMore21">GROUP XXI: Torso and Neck Section</h1><p>Muscles: Muscles of respiration: thoracic muscle group </p><p>Function: Respiration</p> ';	
+	var showMore22='<h1 id="showMore22">GROUP XXII: Torso and Neck Section</h1><p>Muscles: Muscles of the front of the neck: (Lateral, supra-, and infrahyoid group.) (1) Trapezius I (clavicular insertion); (2) sternocleidomastoid; (3) the "hyoid" muscles; (4) sternothyroid; (5) digastric </p><p>Function: Rotary and forward movements of the head; respiration; deglutition.</p> ';	
+	var showMore23='<h1 id="showMore23">GROUP XXIII: Torso and Neck Section</h1><p>Muscles: Muscles of the side and back of the neck: Suboccipital; lateral vertebral and anterior vertebral muscles</p><p>Function: Movements of the head, fixation of shoulder movements</p> ';	
+
+function showMore(num,id){
+	document.getElementById("morInfo").innerHTML = num;
+	document.getElementById("morInfo").style.backgroundColor = "#333";
+	document.getElementById("morInfo").style.color = "#fff";
+}
+    </script>		
+		</script>
+	</head>
+
+
+	
+<body > 
+<!-- Start of intro page: #intro -->
+<div data-role="page" data-theme="b" id="videoPage1">
+
+	<div data-role="header" data-backbtn="false">
+		<a href="01_008.htm" data-mini="true" data-direction="reverse" data-icon="arrow-l" data-role="button" data-theme="e" data-transition="slide">Back</a>
+	  <h2>23 Muscle Groups</h2>
+		<a href="01_010.htm" data-mini="true" data-direction="forward" data-icon="arrow-r" data-role="button" data-theme="e" data-transition="slide">Next</a>
+		
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="b" >
+    
+          <p>Select  each muscle group to learn about the group's function and the muscles included  in the group. You may be asked questions about this material.</p>
+          <p><div id="imageDiv"><img style="width: 100%; height: auto; max-width: 690px;" src="../images/MU_01_009_1.jpg" alt="Interactive graphic of the human body divided into 23 muscle groups" width="690" height="690" usemap="#Map" title="Interactive graphic of the human body divided into 23 muscle groups" border="0"/></div>
+        <map name="Map" id="Map">
+              <area shape="circle" coords="77,350,12" href="#showMore9" id="showMoreLink9" onclick="showMore(showMore9,'showMoreLink9');" title="Show more information about: Forearm and Hand Section" />
+              <area shape="circle" coords="289,349,12" href="#showMore9" id="showMoreLink9" onclick="showMore(showMore9,'showMoreLink9');" title="Show more information about: Forearm and Hand Section" />
+              <area accesskey="23" shape="circle" coords="490,58,12" href="#showMore23" id="showMoreLink23" onclick="showMore(showMore23,'showMoreLink23');" title="Show more information about: 23 - Torso and Neck Section" />
+              <area accesskey="22" shape="circle" coords="194,114,12" href="#showMore22" id="showMoreLink22" onclick="showMore(showMore22,'showMoreLink22');" title="Show more information about: 22 - Torso and Neck Section" />
+              <area accesskey="21" shape="circle" coords="194,218,12" href="#showMore21" id="showMoreLink21" onclick="showMore(showMore21,'showMoreLink21');" title="Show more information about: 21 - Torso and Neck Section" />
+              <area accesskey="21" shape="circle" coords="523,218,12" href="#showMore21" id="showMoreLink21" onclick="showMore(showMore21,'showMoreLink21');" title="Show more information about: 21 - Torso and Neck Section" />
+              <area accesskey="21" shape="circle" coords="459,218,12" href="#showMore21" id="showMoreLink21" onclick="showMore(showMore21,'showMoreLink21');" title="Show more information about: 21 - Torso and Neck Section" />
+              <area accesskey="20" shape="circle" coords="493,266,12" href="#showMore20" id="showMoreLink20" onclick="showMore(showMore20,'showMoreLink20');" title="Show more information about: 20 - Torso and Neck Section" />
+              <area accesskey="19" shape="circle" coords="195,267,12" href="#showMore19" id="showMoreLink19" onclick="showMore(showMore19,'showMoreLink19');" title="Show more information about: 19 - Torso and Neck Section" />
+              <area accesskey="18" shape="circle" coords="247,322,12" href="#showMore18" id="showMoreLink18" onclick="showMore(showMore18,'showMoreLink18');" title="Show more information about: 18 - Pelvic Girdle and Thigh Section" />
+              <area accesskey="18" shape="circle" coords="132,322,12" href="#showMore18" id="showMoreLink18" onclick="showMore(showMore18,'showMoreLink18');" title="Show more information about: 18 - Pelvic Girdle and Thigh Section" />
+              <area accesskey="17" shape="circle" coords="496,346,12" href="#showMore17" id="showMoreLink17" onclick="showMore(showMore17,'showMoreLink17');" title="Show more information about: 17 - Pelvic Girdle and Thigh Section" />
+              <area accesskey="16" shape="circle" coords="187,343,12" href="#showMore16" id="showMoreLink16" onclick="showMore(showMore16,'showMoreLink16');" title="Show more information about: 16 - Pelvic Girdle and Thigh Section" />
+              <area accesskey="15" shape="circle" coords="204,436,12" href="#showMore15" id="showMoreLink15" onclick="showMore(showMore15,'showMoreLink15');" title="Show more information about: 15 - Pelvic Girdle and Thigh Section" />
+              <area accesskey="15" shape="circle" coords="174,436,12" href="#showMore15" id="showMoreLink15" onclick="showMore(showMore15,'showMoreLink15');" title="Show more information about: 15 - Pelvic Girdle and Thigh Section" />
+              <area accesskey="15" shape="circle" coords="507,403,12" href="#showMore15" id="showMoreLink15" onclick="showMore(showMore15,'showMoreLink15');" title="Show more information about: 15 - Pelvic Girdle and Thigh Section" />
+              <area accesskey="15" shape="circle" coords="480,403,12" href="#showMore15" id="showMoreLink15" onclick="showMore(showMore15,'showMoreLink15');" title="Show more information about: 15 - Pelvic Girdle and Thigh Section" />
+              <area accesskey="14" shape="circle" coords="233,393,12" href="#showMore14" id="showMoreLink14" onclick="showMore(showMore14,'showMoreLink14');" title="Show more information about: 14 - Pelvic Girdle and Thigh Section" />
+              <area accesskey="14" shape="circle" coords="148,392,12" href="#showMore14" id="showMoreLink14" onclick="showMore(showMore14,'showMoreLink14');" title="Show more information about: 14 - Pelvic Girdle and Thigh Section" />
+              <area accesskey="13" shape="circle" coords="536,401,12" href="#showMore13" id="showMoreLink13" onclick="showMore(showMore13,'showMoreLink13');" title="Show more information about: 13 - Pelvic Girdle and Thigh Section" />
+              <area accesskey="13" shape="circle" coords="445,402,12" href="#showMore13" id="showMoreLink13" onclick="showMore(showMore13,'showMoreLink13');" title="Show more information about: 13 - Pelvic Girdle and Thigh Section" />
+              <area accesskey="12" shape="circle" coords="229,544,12" href="#showMore12" id="showMoreLink12" onclick="showMore(showMore12,'showMoreLink12');" title="Show more information about: 12 - Foot and Leg Section" />
+              <area accesskey="12" shape="circle" coords="154,544,12" href="#showMore12" id="showMoreLink12" onclick="showMore(showMore12,'showMoreLink12');" title="Show more information about: 12 - Foot and Leg Section" />
+              <area accesskey="11" shape="circle" coords="518,553,12" href="#showMore11" id="showMoreLink11" onclick="showMore(showMore11,'showMoreLink11');" title="Show more information about: 11 - Foot and Leg Section" />
+              <area accesskey="11" shape="circle" coords="455,553,12" href="#showMore11" id="showMoreLink11" onclick="showMore(showMore11,'showMoreLink11');" title="Show more information about: 11 - Foot and Leg Section" />
+              <area accesskey="11" shape="circle" coords="205,524,12" href="#showMore11" id="showMoreLink11" onclick="showMore(showMore11,'showMoreLink11');" title="Show more information about: 11 - Foot and Leg Section" />
+              <area accesskey="11"shape="circle" coords="177,524,12" href="#showMore11" id="showMoreLink11" onclick="showMore(showMore11,'showMoreLink11');" title="Show more information about: 11 - Foot and Leg Section" />
+              <area accesskey="10" shape="circle" coords="508,653,13" href="#showMore10" id="showMoreLink10" onclick="showMore(showMore10,'showMoreLink10');" title="Show more information about: 10 - Foot and Leg Section" />
+              <area accesskey="10" shape="circle" coords="455,655,13" href="#showMore10" id="showMoreLink10" onclick="showMore(showMore10,'showMoreLink10');" title="Show more information about: 10 - Foot and Leg Section" />
+              <area accesskey="10" shape="circle" coords="223,651,13" href="#showMore10" id="showMoreLink10" onclick="showMore(showMore10,'showMoreLink10');" title="Show more information about: 10 - Foot and Leg Section" />
+              <area accesskey="10" shape="circle" coords="173,648,13" href="#showMore10" id="showMoreLink10" onclick="showMore(showMore10,'showMoreLink10');" title="Show more information about: 10 - Foot and Leg Section" />
+              <area accesskey="9" shape="circle" coords="603,345,12" href="#showMore9" id="showMoreLink9" onclick="showMore(showMore9,'showMoreLink9');" title="Show more information about: 9 - Forearm and Hand Section" />
+              <area accesskey="9" shape="circle" coords="391,345,12" href="#showMore9" id="showMoreLink9" onclick="showMore(showMore9,'showMoreLink9');" title="Show more information about: 9 - Forearm and Hand Section" />
+              <area accesskey="8" shape="circle" coords="599,262,12" href="#showMore8" id="showMoreLink8" onclick="showMore(showMore8,'showMoreLink8');" title="Show more information about: 8 - Forearm and Hand Section" />
+              <area accesskey="8" shape="circle" coords="391,262,12" href="#showMore8" id="showMoreLink8" onclick="showMore(showMore8,'showMoreLink8');" title="Show more information about: 8 - Forearm and Hand Section" />
+              <area accesskey="8" shape="circle" coords="72,291,12" href="#showMore8" id="showMoreLink8" onclick="showMore(showMore8,'showMoreLink8');" title="Show more information about: 8 - Forearm and Hand Section" />
+              <area accesskey="8" shape="circle" coords="295,291,12" href="#showMore8" id="showMoreLink8" onclick="showMore(showMore8,'showMoreLink8');" title="Show more information about: 8 - Forearm and Hand Section" />
+              <area accesskey="7" shape="circle" coords="261,299,12" href="#showMore7" id="showMoreLink7" onclick="showMore(showMore7,'showMoreLink7');" title="Show more information about: 7 - Forearm and Hand Section" />
+              <area accesskey="7" shape="circle" coords="108,298,12" href="#showMore7" id="showMoreLink7" onclick="showMore(showMore7,'showMoreLink7');" title="Show more information about: 7 - Forearm and Hand Section" />
+              <area accesskey="7" shape="circle" coords="569,276,12" href="#showMore7" id="showMoreLink7" onclick="showMore(showMore7,'showMoreLink7');" title="Show more information about: 7 - Forearm and Hand Section" />
+              <area accesskey="7" shape="circle" coords="422,275,12" href="#showMore7" id="showMoreLink7" onclick="showMore(showMore7,'showMoreLink7');" title="Show more information about: 7 - Forearm and Hand Section" />
+              <area accesskey="6" shape="circle" coords="588,193,12" href="#showMore6" id="showMoreLink6" onclick="showMore(showMore6,'showMoreLink6');" title="Show more information about: 6 - Shoulder Girdle and Arm Section" />
+              <area accesskey="6" shape="circle" coords="400,194,12" href="#showMore6" id="showMoreLink6" onclick="showMore(showMore6,'showMoreLink6');" title="Show more information about: 6 - Shoulder Girdle and Arm Section" />
+              <area accesskey="5" shape="circle" coords="265,214,12" href="#showMore5" id="showMoreLink5" onclick="showMore(showMore5,'showMoreLink5');" title="Show more information about: 5 - Shoulder Girdle and Arm Section" />
+              <area accesskey="5" shape="circle" coords="111,214,12" href="#showMore5" id="showMoreLink5" onclick="showMore(showMore5,'showMoreLink5');" title="Show more information about: 5 - Shoulder Girdle and Arm Section" />
+              <area accesskey="4" shape="circle" coords="455,159,12" href="#showMore4" id="showMoreLink4" onclick="showMore(showMore4,'showMoreLink4');" title="Show more information about: 4 - Shoulder Girdle and Arm Section" />
+              <area accesskey="4" shape="circle" coords="527,159,12" href="#showMore4" id="showMoreLink4" onclick="showMore(showMore4,'showMoreLink4');" title="Show more information about: 4 - Shoulder Girdle and Arm Section" />
+              <area accesskey="3" shape="circle" coords="137,154,12" href="#showMore3" id="showMoreLink3" onclick="showMore(showMore3,'showMoreLink3');" title="Show more information about: 3 - Shoulder Girdle and Arm Section" />
+              <area accesskey="3" shape="circle" coords="248,154,12" href="#showMore3" id="showMoreLink3" onclick="showMore(showMore3,'showMoreLink3');" title="Show more information about: 3 - Shoulder Girdle and Arm Section" />
+              <area accesskey="3" shape="circle" coords="561,146,12" href="#showMore3" id="showMoreLink3" onclick="showMore(showMore3,'showMoreLink3');" title="Show more information about: 3 - Shoulder Girdle and Arm Section" />
+              <area accesskey="3" shape="circle" coords="418,146,12" href="#showMore3" id="showMoreLink3" onclick="showMore(showMore3,'showMoreLink3');" title="Show more information about: 3 - Shoulder Girdle and Arm Section" />
+              <area accesskey="2" shape="circle" coords="431,197,12" href="#showMore2" id="showMoreLink2" onclick="showMore(showMore2,'showMoreLink2');" title="Show more information about: 2 - Shoulder Girdle and Arm Section" />
+              <area accesskey="2" shape="circle" coords="552,197,12" href="#showMore2" id="showMoreLink2" onclick="showMore(showMore2,'showMoreLink2');" title="Show more information about: 2 - Shoulder Girdle and Arm Section"/>
+              <area accesskey="1" shape="circle" coords="523,111,12" href="#showMore1" id="showMoreLink1" onclick="showMore(showMore1,'showMoreLink1');" title="Show more information about: 1 - Shoulder Girdle and Arm Section" />
+              <area accesskey="1" shape="circle" coords="453,111,12" href="#showMore1" id="showMoreLink1" onclick="showMore(showMore1,'showMoreLink1');" title="Show more information about: 1 - Shoulder Girdle and Arm Section" />
+              <area accesskey="1" shape="circle" coords="226,105,12" href="#showMore1" id="showMoreLink1" onclick="showMore(showMore1,'showMoreLink1');" title="Show more information about: 1 - Shoulder Girdle and Arm Section" />
+              <area accesskey="1" shape="circle" coords="158,108,12" href="#showMore1" id="showMoreLink1" onclick="showMore(showMore1,'showMoreLink1');" title="Show more information about: 1 - Shoulder Girdle and Arm Section" />
+            </map>	    
+	  </p>
+                <div id="morInfo"></div>
+
+<p style="text-align:center;"><strong>Select the Next button to continue.</strong></p>	
+
+	</div><!-- /content -->	
+
+	<div data-role="footer" data-theme="a">
+		<!-- Footer -->
+	</div>
+</div><!-- /intro -->
+<script>
+	imageMapResize();
+</script>
+</body>
+</html>
